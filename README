@@ -1,0 +1,75 @@
+perl-Heap
+------------------------------------------
+This is a collection of routines for managing a heap data structure. 
+There are two major components: a heap component, and an element 
+component. A heap package basically keeps a collection of elements and 
+is able to return the smallest one.
+
+Runtime requirements:
+  perl-5.10.0-3
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygport-0.3.9-1
+  make-3.81-1
+
+Canonical website:
+  http://search.cpan.org/dist/Heap/
+
+Canonical download:
+  http://search.cpan.org/CPAN/authors/id/J/JM/JMM/
+
+-------------------------------------------
+
+Build instructions:
+  unpack perl-Heap-0.80-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./perl-Heap-0.80-X.cygport all
+
+This will create:
+  /usr/src/perl-Heap-0.80-X-src.tar.bz2
+  /usr/src/perl-Heap-0.80-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/perl5/vendor_perl/5.10/Heap.pm
+  /usr/lib/perl5/vendor_perl/5.10/Heap/Binary.pm
+  /usr/lib/perl5/vendor_perl/5.10/Heap/Binomial.pm
+  /usr/lib/perl5/vendor_perl/5.10/Heap/Elem.pm
+  /usr/lib/perl5/vendor_perl/5.10/Heap/Elem/Num.pm
+  /usr/lib/perl5/vendor_perl/5.10/Heap/Elem/NumRev.pm
+  /usr/lib/perl5/vendor_perl/5.10/Heap/Elem/Ref.pm
+  /usr/lib/perl5/vendor_perl/5.10/Heap/Elem/RefRev.pm
+  /usr/lib/perl5/vendor_perl/5.10/Heap/Elem/Str.pm
+  /usr/lib/perl5/vendor_perl/5.10/Heap/Elem/StrRev.pm
+  /usr/lib/perl5/vendor_perl/5.10/Heap/Fibonacci.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Heap/.packlist
+  /usr/share/doc/perl-Heap-0.80/Changes
+  /usr/share/doc/perl-Heap-0.80/README
+  /usr/share/doc/perl-Heap-0.80/TODO
+  /usr/share/man/man3/Heap.3pm.gz
+  /usr/share/man/man3/Heap.Binary.3pm.gz
+  /usr/share/man/man3/Heap.Binomial.3pm.gz
+  /usr/share/man/man3/Heap.Elem.3pm.gz
+  /usr/share/man/man3/Heap.Elem.Num.3pm.gz
+  /usr/share/man/man3/Heap.Elem.NumRev.3pm.gz
+  /usr/share/man/man3/Heap.Elem.Ref.3pm.gz
+  /usr/share/man/man3/Heap.Elem.RefRev.3pm.gz
+  /usr/share/man/man3/Heap.Elem.Str.3pm.gz
+  /usr/share/man/man3/Heap.Elem.StrRev.3pm.gz
+  /usr/share/man/man3/Heap.Fibonacci.3pm.gz
+
+------------------
+
+Port Notes:
+
+----- version 0.80-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

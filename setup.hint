@@ -1,0 +1,7 @@
+category: Perl
+requires: perl
+sdesc: "Perl heap data module"
+ldesc: "This is a collection of routines for managing a heap data 
+structure. There are two major components: a heap component, and an 
+element component. A heap package basically keeps a collection of 
+elements and is able to return the smallest one."
